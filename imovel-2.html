@@ -144,13 +144,13 @@
     <div class="imoveis-grid">
       <a class="card-imovel" href="imovel-1.html">
         <div class="photo">
-          <img src="images/imovel-1/casa1.avif" alt="Vila Horizonte, São Francisco do Sul">
+          <img src="images/imovel-1/casa1.avif" alt="Praia Grande House, São Francisco do Sul">
           <span class="badge">São Francisco do Sul · SC</span>
         </div>
         <div class="body">
-          <h3>Vila Horizonte</h3>
+          <h3>Praia Grande House</h3>
           <p class="local">📍 Praia da Enseada</p>
-          <div class="specs"><span>🛏 4 quartos</span><span>🧑‍🤝‍🧑 10 hóspedes</span><span>🚿 3 banheiros</span></div>
+          <div class="specs"><span>🛏 3 quartos</span><span>🧑‍🤝‍🧑 8 hóspedes</span><span>🚿 2,5 banheiros</span></div>
           <div class="footer-row"><div class="price"><strong>R$ 890</strong><span>por noite, a partir de</span></div><span class="ver">Ver detalhes →</span></div>
         </div>
       </a>
@@ -203,8 +203,11 @@
 </footer>
 
 <div class="lightbox">
-  <button aria-label="Fechar"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 6l16 16M22 6L6 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <button class="lightbox-close" aria-label="Fechar"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 6l16 16M22 6L6 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <button class="lightbox-nav lightbox-prev" aria-label="Foto anterior"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M13.5 4L6.5 11l7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="lightbox-nav lightbox-next" aria-label="Próxima foto"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M8.5 4l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   <img src="" alt="Foto ampliada do imóvel">
+  <span class="lightbox-counter"></span>
 </div>
 
 <script src="js/script.js"></script>

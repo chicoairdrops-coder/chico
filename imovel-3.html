@@ -201,8 +201,11 @@
 </footer>
 
 <div class="lightbox">
-  <button aria-label="Fechar"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 6l16 16M22 6L6 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <button class="lightbox-close" aria-label="Fechar"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 6l16 16M22 6L6 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <button class="lightbox-nav lightbox-prev" aria-label="Foto anterior"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M13.5 4L6.5 11l7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="lightbox-nav lightbox-next" aria-label="Próxima foto"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M8.5 4l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   <img src="" alt="Foto ampliada do imóvel">
+  <span class="lightbox-counter"></span>
 </div>
 
 <script src="js/script.js"></script>
