@@ -177,7 +177,7 @@ p{
   align-items:flex-end;
   background:
     linear-gradient(180deg, rgba(8,42,48,.35) 0%, rgba(8,42,48,.55) 55%, rgba(8,42,48,.92) 100%),
-    url("../images/imovel-1/casa.avif") center/cover no-repeat;
+    url("../images/imovel-1/casa1.avif") center/cover no-repeat;
   color:var(--foam);
 }
 .hero-inner{
@@ -287,6 +287,9 @@ p{
 }
 .historia-media{ position:relative; }
 .historia-media img{
+  width:100%;
+  height:auto;
+  display:block;
   border-radius:var(--radius);
   box-shadow:0 30px 60px -30px rgba(8,42,48,.5);
 }
