@@ -1,5 +1,5 @@
 /* =========================================================
-   MARÉ ALTA — Administração de Imóveis de Temporada
+   WG HOUSES — Administração de Imóveis de Temporada
    Design tokens
    ========================================================= */
 :root{
@@ -718,3 +718,4 @@ footer{
   .p-body{ grid-template-columns:1fr; }
   .booking-card{ position:static; }
 }
+
