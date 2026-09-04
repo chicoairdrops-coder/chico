@@ -760,11 +760,13 @@ footer{
 
 .nav .btn-login{
   background:transparent;
-  color:var(--foam);
-  border:1px solid rgba(250,247,239,.45);
-  margin-left:12px;
+  color:rgba(250,247,239,.7);
+  border:1px solid rgba(250,247,239,.28);
+  margin-left:10px;
+  padding:9px 18px;
+  font-size:13px;
 }
-.nav .btn-login:hover{ border-color:var(--foam); background:rgba(250,247,239,.08); }
+.nav .btn-login:hover{ border-color:rgba(250,247,239,.6); color:var(--foam); background:rgba(250,247,239,.06); }
 
 /* =========================================================
    LOGIN PAGE
